@@ -1,3 +1,6 @@
 [submodule "Engine/Source/UICore/cimgui"]
 	path = Engine/Source/UICore/cimgui
 	url = https://github.com/X4---/cimgui
+[submodule "Engine/Source/UICore/ImGui.NET"]
+	path = Engine/Source/UICore/ImGui.NET
+	url = https://github.com/X4---/ImGui.NET
