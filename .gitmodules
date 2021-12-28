@@ -4,3 +4,6 @@
 [submodule "Engine/Source/UICore/ImGui.NET"]
 	path = Engine/Source/UICore/ImGui.NET
 	url = https://github.com/X4---/ImGui.NET
+[submodule "Tools/CMakeLib"]
+	path = Tools/CMakeLib
+	url = https://github.com/X4---/CMakeLib
