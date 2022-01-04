@@ -1,6 +1,8 @@
 
-add_subdirectory(EngineCore)
 
-add_subdirectory(EngineEditor)
+#设置当前目录SOURCE为代码的根目录
+CMAKELIB_PROJECT_SETCODEROOT()
 
-add_subdirectory(UICore)
+
+#设置将当前的所有子目录建立工程
+CMAKELIB_PROJECT_ADDALLSUBDIR()

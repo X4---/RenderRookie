@@ -1,13 +1,15 @@
 #CMake Version
 cmake_minimum_required(VERSION 3.10)
 
+
+project("RenderRookie")
+
 #包含所有的工具
-set(CMAKE_MODULE_PATH  "${CMAKE_MODULE_PATH};${CMAKE_SOURCE_DIR}Tools/CMakeLib")
+set(CMAKE_MODULE_PATH  "${CMAKE_MODULE_PATH};${CMAKE_SOURCE_DIR}/Tools/CMakeLib")
 include(CMakeLib)
 
 #设置项目
-set(PROJECT_NAME "RenderRookie")
-project(${PROJECT_NAME})
+CMAKELIB_PROJECT("RenderRookie")
 
-set_property(GLOBAL PROPERTY USE_FOLDERS ON)
+#生成项目项目相关
 add_subdirectory(Engine)
