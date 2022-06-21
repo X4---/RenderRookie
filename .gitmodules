@@ -4,9 +4,9 @@
 # [submodule "Engine/Source/UICore/ImGui.NET"]
 # 	path = Engine/Source/UICore/ImGui.NET
 # 	url = https://github.com/X4---/ImGui.NET
-[submodule "Engine/Source/UICore/imgui"]
-	path = Engine/Source/UICore/imgui
-	url = https://github.com/X4---/imgui
 [submodule "Tools/CMakeLib"]
 	path = Tools/CMakeLib
 	url = https://github.com/X4---/CMakeLib
+[submodule "Engine/Source/UICore/imgui"]
+	path = Engine/Source/UICore/imgui
+	url = https://github.com/X4---/imgui
