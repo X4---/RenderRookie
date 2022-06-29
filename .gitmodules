@@ -7,6 +7,3 @@
 [submodule "Tools/CMakeLib"]
 	path = Tools/CMakeLib
 	url = https://github.com/X4---/CMakeLib
-[submodule "Engine/Source/UICore/imgui"]
-	path = Engine/Source/UICore/imgui
-	url = https://github.com/X4---/imgui
