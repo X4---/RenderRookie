@@ -3,6 +3,8 @@
 #设置当前目录SOURCE为代码的根目录
 CMAKELIB_PROJECT_SETCODEROOT()
 
+#设置所有的Binary输出到
+CMAKELIB_PROJECT_SET_OUTPUT_DIR( ${CMAKE_SOURCE_DIR}/Engine/Binaries )
 
 #设置将当前的所有子目录建立工程
 CMAKELIB_PROJECT_ADDALLSUBDIR()
